@@ -15,7 +15,7 @@ public class firstDay {
         ArrayList<Integer> expenses = new ArrayList<>();
 
         try {
-            File myObj = new File("../AdventOfCode_2020/src/firstDay/input.txt");
+            File myObj = new File("../AdventOfCode2020/src/firstDay/input.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 expenses.add(Integer.valueOf(myReader.nextLine()));

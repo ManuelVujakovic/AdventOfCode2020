@@ -12,7 +12,7 @@ public class fourthDay {
         ArrayList<String> passowrds = new ArrayList<>();
 
         try {
-            File myObj = new File("../AdventOfCode_2020/src/fourthDay/input.txt");
+            File myObj = new File("../AdventOfCode2020/src/fourthDay/input.txt");
             Scanner myReader = new Scanner(myObj);
             String line = null;
             StringBuilder stringBuilder = new StringBuilder();

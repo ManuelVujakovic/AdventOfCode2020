@@ -5,14 +5,14 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class SecondDay {
+public class secondDay {
 
     public static void main(String[] args) {
 
         ArrayList<String> passwords = new ArrayList<>();
 
         try {
-            File myObj = new File("../AdventOfCode_2020/src/secondDay/input.txt");
+            File myObj = new File("../AdventOfCode2020/src/secondDay/input.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 passwords.add(myReader.nextLine());
